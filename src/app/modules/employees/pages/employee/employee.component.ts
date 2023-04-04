@@ -34,7 +34,7 @@ export class EmployeeComponent implements OnInit {
   getAllEmployee() {
     this.employeesService.getAllEmployee().subscribe(resp => {
       this.employee = resp;
-
+      console.log(this.employee)
     })
   }
 
