@@ -39,8 +39,8 @@
       </thead>
       <tbody>
       <tr *ngFor="let item of customer">
-        <td>{{item.clientNit}}</td>
-        <td>{{item.clientName}}</td>
+        <td>{{item.client_id}}</td>
+        <td>{{item.client_name}}</td>
         <td class="icon">
           <button type="button" class="btn btn-success" [routerLink]="['customer_edit_form',item.clientId]">
             <i class="fas fa-edit"></i></button>

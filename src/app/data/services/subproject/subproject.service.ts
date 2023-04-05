@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
 })
 export class SubprojectService {
 
-  private API_SERVER='http://localhost:8020/subprojects';
+  private API_SERVER='http://localhost:8020/subproject';
 
   constructor(private httpClient : HttpClient) { }
 

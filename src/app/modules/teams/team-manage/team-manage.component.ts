@@ -53,7 +53,7 @@ export class TeamManageComponent implements OnInit {
 
   getAllAreaSelect() {
     this.areaService.getAllArea().subscribe(resp => {
-      this.areas = resp
+      this.areas = resp;
     });
   }
 

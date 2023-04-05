@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class AreaService {
-  private API_SERVER = 'http://localhost:8020/areas';
+  private API_SERVER = 'http://localhost:8020/area';
 
   constructor(
     private httpClient: HttpClient
